@@ -1,8 +1,8 @@
 import express from 'express';
 import dotenv from 'dotenv';
-import { setupApi } from './middlewares/setupApi';
+import { setupApi } from './routes/setupApi';
 import { createServer } from 'http';
-import { setupController } from './middlewares/setupController';
+import { setupController } from './routes/setupController';
 
 dotenv.config();
 
